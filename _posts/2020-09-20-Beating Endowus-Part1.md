@@ -1,4 +1,5 @@
 ---
+title: Beating an Investment Company (Part 1)
 categories: [trading]
 ---
 
