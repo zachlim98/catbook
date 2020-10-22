@@ -202,7 +202,7 @@ So, I'm not knocking Endowus. They certainly lower fees and do appear to have so
 
 ## Personal Conclusion
 
-Having examined Endowus, the next step was to then think of ways to beat their returns over the course of the next year. After all, as a smaller capitalized investor answering to no one, I was surely more nimble and could afford higher risk higher return strategies that could beat them. With this, I decided to turn to Options... which you can read all about in [Part 2](). 
+Having examined Endowus, the next step was to then think of ways to beat their returns over the course of the next year. After all, as a smaller capitalized investor answering to no one, I was surely more nimble and could afford higher risk higher return strategies that could beat them. With this, I decided to turn to Options... which you can read all about in [Part 2]({% link _posts/2020-09-22-Beating Endowus-Part2.md %}). 
 
 
 
