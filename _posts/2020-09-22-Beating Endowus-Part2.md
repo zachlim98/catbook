@@ -1,3 +1,7 @@
+---
+categories: [trading]
+---
+
 # Introduction
 
 So, having decided that I was going to use Options as my Investment Company-beating strategy, I needed to delve deeply into Options. I turned to [tastytrade](https://www.tastytrade.com) for some instruction and inspiration. *Side note*: This post likely won't be as interesting/data-related but will mostly encapsulate what I intend to be my trade strategy and show the payoff diagrams for the relevant strategies. 
