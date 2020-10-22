@@ -1,3 +1,9 @@
+---
+title: "Beating" an Investment Company - Part 1
+categories: [trading]
+comments: true
+---
+
 _Disclaimer: This is not directed particularly at Endowus per se or any other investment company. Endowus is simply being used as a point of reference for rate of return comparisons and benchmarking_
 
 # Introduction
@@ -20,9 +26,7 @@ In starting this journey, I recalled the words of Sun Tzu (yucks sorry for quoti
 
 Endowus bills itself as a "Singapore-based ***financial technology company*** that empowers people to take control of their financial future". I've highlighted the "financial technology company" part because that's where Endowus really sells themselves highly, contrasting this 'advanced' technological approach to traditional financial advisors. Their mission(??) statement goes on to explain that they use a "proprietary system [to] provide data-driven wealth advice in constructing personalised solutions." Wow - to the ordinary folk, this all sounds really cool and (to use a Singapore colloquialism) *cheem*. Data-driven advice? Proprietary system? Sign me up BABY. 
 
-```
 ![Sign me up](https://media1.tenor.com/images/7afb0ec278e3d5c757664d177849e013/tenor.gif)
-```
 
 When one first opens an account with them, you are given the option to set some financial goals. You put in your initial investment, your monthly contributions, and your risk tolerance (represented by maximum % drawdown). Here's where the impressive, data-magic happens. After running some **INTENSE** calculations, Endowus then spits out a projected portfolio growth graph (based off of ***1000*** simulations; yes ONE THOUSAND). Here's how it looks:
 
@@ -144,6 +148,7 @@ At this point, you might argue, "Zach! See? It's so accurate! What's not to like
     The median return of the portfolio is 79830026990.74.
     The 10th percentile is 57374377254.75 and the 75th percentile is 94655289488.97.
     The highest amount is 225225174502.04, and the lowest is 34068119785.18.
+    
 ![image](https://user-images.githubusercontent.com/68678549/96326786-39f50680-1066-11eb-929f-38dda6c3a567.png)
 
 Did me running the model 10,000 times make it any more accurate? NO! If my input is flawed (in this case, a 70% annual return), my output will still be flawed, regardless of how many simulations I ran. So, these things look nice and fancy but they cannot be markers of "accuracy" because they are heavy reliant on the input. Which brings me to my next point... 
