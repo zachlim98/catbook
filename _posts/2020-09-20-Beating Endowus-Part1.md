@@ -1,7 +1,5 @@
 ---
-title: "Beating" an Investment Company - Part 1
 categories: [trading]
-comments: true
 ---
 
 _Disclaimer: This is not directed particularly at Endowus per se or any other investment company. Endowus is simply being used as a point of reference for rate of return comparisons and benchmarking_
