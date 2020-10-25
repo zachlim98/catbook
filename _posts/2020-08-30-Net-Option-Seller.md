@@ -1,7 +1,4 @@
----
-title: Validating the 'tastytrade' way: Are Options' Implied Volatility significantly higher than Realized Volatility?
-categories: [trading,data]
----
+
 # Introduction
 
 There's a famous subreddit known as /r/thetagang that is completely centered around the selling of options vis the buying of options. This selling bias has also been most famously promoted on [tastytrades](https://www.tastytrade.com/tt/shows/ryan-beef/episodes/the-argument-for-selling-options-09-22-2017) as the "tastytrade" way. One of the main justifications for why one should sell options is the concept of premium and volatility. This article will explore whether this bias is statistically justified. 
