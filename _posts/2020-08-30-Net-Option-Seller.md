@@ -1,3 +1,7 @@
+---
+title: Validating the tastytrade way - Is Intrinsic Volitility significantly higher than Realized Volitility?
+categories: [trading, data]
+---
 
 # Introduction
 
