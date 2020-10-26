@@ -157,10 +157,12 @@ perc2_overstated = ((SPY1520[SPY1520.d>0.0].count())/SPY1520['d'].count())*100
 perc2 = perc2_overstated.values
 print('Percentage of time that IV was overstated: \n2005-2010:%.1f\n2015-2020:%.1f' % (perc1[1],perc2[1]))
 ```
-
+```
     Percentage of time that IV was overstated: 
     2005-2010:84.6
     2015-2020:83.5
+```
+
 Checking on the 84% claim of tastytrades, I was pleased to see that their purported 84% was in fact relatively accurate and reflected in both periods. 
 
 ## Capitalizing on IV and HV Differences
