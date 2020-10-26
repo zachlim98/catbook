@@ -7,7 +7,7 @@ _Disclaimer: This is not directed particularly at Endowus per se or any other in
 
 # Introduction
 
-So, a couple of days ago, I got into a little squabble with my dad about what to do with some cash that I had lying around in my bank. I wanted to invest the money to generate a better interest rate than the pathetic [~0.5%](https://www.valuechampion.sg/bank-accounts/average-effective-interest-rate-savings-accounts#average) offered by most banks. My dad leaned more toward just parking my money with a random advisor and trusting them to invest in, while I was more inclined toward managing the money on my own. Unable to come to a conclusion, we decided that an experiment was in an order and decided to split the money in a 2:1 ratio, parking 2/3 of the money with [Endowus](https://endowus.com/how-we-invest) and leaving 1/3 of the money for me to invest with. 
+So, a couple of days ago, I got into a little squabble with my dad about what to do with some cash that I had lying around in my bank. I wanted to invest the money to generate a better interest rate than the pathetic [~0.5%](https://www.valuechampion.sg/bank-accounts/average-effective-interest-rate-savings-accounts#average) offered by most banks. My dad leaned more toward just parking my money with a random advisor and trusting them to invest it while I was more inclined toward managing the money on my own. Unable to come to a conclusion, we decided that an experiment was in an order and decided to split the money in a 2:1 ratio, parking 2/3 of the money with [Endowus](https://endowus.com/how-we-invest) and leaving 1/3 of the money for me to invest with. 
 
 In starting this journey, I recalled the words of Sun Tzu (yucks sorry for quoting the likely most overly quoted Chinese philosopher(is he??)) and the importance of "knowing thy self, and knowing thy enemy." Feeling that I was in touch with myself (jk), I decided to start off with first breaking down the strategy of the enemy. Here's the outline of the article and the tl;dr for you ~~lazy~~ amazing readers
 
@@ -15,9 +15,9 @@ In starting this journey, I recalled the words of Sun Tzu (yucks sorry for quoti
 
   1. Who is Endowus: Singapore finance company, boasting data driven solutions and proprietary systems
  2. Problems
- 	a. Inaccuracy/Unreliability of simulations: The accuracy of simluations/models are contingent on the accuracy of their input. Running a model 1,000 or 1,000,000 times does not increase its forecasting accuracy if the inputs are flawed to begin with. Hence, Endowus' 1,000 simulation forecasts aren't that impressive. 
+ 	a. Inaccuracy/Unreliability of simulations: The accuracy of simulations/models are contingent on the accuracy of their input. Running a model 1,000 or 1,000,000 times does not increase its forecasting accuracy if the inputs are flawed to begin with. Hence, Endowus' 1,000 simulation forecasts aren't that impressive. 
 	b. Historical Returns + Fees: Historical returns (which is used by Endowus for projection) are never indicative or provide certainty about future returns. Also fees affect return rates. 
-   3. Conclusion: 
+   3. Conclusion: Nothing wrong with investment companies doing such projection but we, as consumers, must be mindful that they aren't always the most accurate thing
 
 # Knowing thy enemy
 
@@ -147,7 +147,7 @@ At this point, you might argue, "Zach! See? It's so accurate! What's not to like
     The median return of the portfolio is 79830026990.74.
     The 10th percentile is 57374377254.75 and the 75th percentile is 94655289488.97.
     The highest amount is 225225174502.04, and the lowest is 34068119785.18.
-    
+
 ![image](https://user-images.githubusercontent.com/68678549/96326786-39f50680-1066-11eb-929f-38dda6c3a567.png)
 
 Did me running the model 10,000 times make it any more accurate? NO! If my input is flawed (in this case, a 70% annual return), my output will still be flawed, regardless of how many simulations I ran. So, these things look nice and fancy but they cannot be markers of "accuracy" because they are heavy reliant on the input. Which brings me to my next point... 
@@ -196,7 +196,7 @@ Another potential factor that will affect returns are fees. I understand that ev
 So, where does all this leave us? My intent in writing this was not to discredit Endowus or discourage anyone from investing with them. Rather, by dissecting the 'fanciful' technology behind the company, I wanted to bring out two key points.
 
 1. First, be wary of nice visuals and *cheem* sounding things. Running a 1000 simulations sounds really cool but you have to remember that the forecasting output of a model is only as accurate as its input. If the output is inaccurate, a 1000 or a million simulations really won't make that much of a difference to the model's accuracy.
-2. Second, historical returns do provide certainty for future returns. We can definitely use historical returns to approximate what future returns will look like BUT we need to remember that there is certainly no certainty, no matter how nice the graphs look. 
+2. Second, historical returns do not provide certainty for future returns. We can definitely use historical returns to approximate what future returns will look like BUT we need to remember that there is certainly no certainty, no matter how nice the graphs look. 
 
 So, I'm not knocking Endowus. They certainly lower fees and do appear to have sound strategies of diversification etc. BUT, as a potential investor, just be aware that there are limitations to the beautiful data-driven models that they present as their 'edge'. 
 
