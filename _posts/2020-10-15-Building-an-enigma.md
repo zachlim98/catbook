@@ -1,5 +1,5 @@
 ---
-title: Building a simple engima machine
+title: Building a simple enigma machine
 categories: [coding]
 ---
 
