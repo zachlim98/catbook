@@ -76,7 +76,7 @@ for i in range(1,len(EOM_SP_df)):
 
 In contrast, my friend Jane couldn't care less about the markets. Every month, she just puts in $833.33, regardless of whether its raining or shining. 
 
-```Python
+```python
 #Jane's portfolio calculation
 today_port_val = 10000
 reg_inv = 10000/12
@@ -104,7 +104,7 @@ for i in range(1,len(EOM_SP_df)):
 
 Tidying up and appending the data back to the dataframe...
 
-```Python
+```python
 port_val_us_poor.append(port_val_us_poor[-1])
 port_val_us_reg.append(port_val_us_reg[-1])
 port_val_us_sav.append(port_val_us_sav[-1])
@@ -180,7 +180,7 @@ Of course, the regular monthly investments didn't do particularly well either. W
 
 The next thing I wanted to examine was whether it made a difference if one invested monthly or saved for the whole year and then invested one-shot at the end of the year. In order to compare the two, I had to convert the yearly dataset to follow the `numpy datetime` convention. I did this by converting everything and appending it to a list called ears (geddit hehe)
 
-```Python
+```python
 EOY_SP_df = annual_return_recent
 
 ears = []
@@ -197,7 +197,7 @@ EOY_SP_df['Date'] = pd.to_datetime(EOY_SP_df['Date'])
 
 Following that, I plotted it out again. 
 
-```Python
+```python
 import matplotlib.dates as mdates
 fig, ax = plt.subplots()
 ax.plot("Date", "Portfolio Value Reg", data=EOY_SP_df, color='darkblue')
