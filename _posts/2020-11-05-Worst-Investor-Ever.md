@@ -73,6 +73,7 @@ for i in range(1,len(EOM_SP_df)):
         today_port_val = today_port_val*(1+(EOM_SP_df.iloc[(i-1),7]/100))
         port_val_us_poor.append(today_port_val)
 ```
+
 In contrast, my friend Jane couldn't care less about the markets. Every month, she just puts in $833.33, regardless of whether its raining or shining. 
 
 ```Python
@@ -86,6 +87,7 @@ for i in range(1,len(EOM_SP_df)):
     today_port_val = (today_port_val+reg_inv)*(1+(EOM_SP_df.iloc[(i-1),7]/100))
     port_val_us_reg.append(today_port_val)
 ```
+
 Finally, I have a friend James who doesn't want to invest in the stock market at all. He stuffs his money in a pillowcase under his bed.
 
 ```python
@@ -99,6 +101,7 @@ for i in range(1,len(EOM_SP_df)):
     today_port_val = today_port_val+reg_inv
     port_val_us_sav.append(today_port_val)
 ```
+
 Tidying up and appending the data back to the dataframe...
 
 ```Python
@@ -110,6 +113,7 @@ EOM_SP_df['Portfolio Value Reg'] = port_val_us_reg
 EOM_SP_df['Portfolio Value (Worst Case)'] = port_val_us_poor
 EOM_SP_df['Portfolio Value (Saving)'] = port_val_us_sav
 ```
+
 And plotting it out!
 
 ```python
@@ -211,6 +215,7 @@ plt.xlabel("Year")
 plt.title("S&P500 Yearly DCA vs Monthly DCA")
 plt.grid()
 ```
+
 ![MonthvYear](https://user-images.githubusercontent.com/68678549/98276678-4ae3c880-1fd1-11eb-84ac-47f9fba4aa26.png)
 
 Interestingly enough, the Monthly DCA actually did slightly better than the Yearly DCA. This is slightly different from comparing Lump Sum Investment to DCA (which has been touched on extensively). Here, its a shorter DCA compared to a longer DCA and it appears that the shorter one wins likely due to your funds having *more time in the market* (which, as the saying goes, is more important than timing the market). 
