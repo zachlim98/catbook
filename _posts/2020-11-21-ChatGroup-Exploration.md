@@ -6,7 +6,7 @@ categories: [data]
 
 # Introduction
 
-A couple of days ago, one of my friends mentioned that it would be interesting to do a visualisation of our group chat - to see things like who spoke the most, who spoke after who the most, and what were the words most commonly used. In this article, I show you how I did using `pandas`, `json`, and `plotly`. 
+A couple of days ago, one of my friends mentioned that it would be interesting to do a visualisation of our group chat - to see things like who spoke the most, who spoke after who the most, and what were the words most commonly used. In this article, I show you how I did that using `pandas`, `json`, and `plotly`. 
 
 ## Post Outline
 1. Gathering Data
@@ -17,7 +17,7 @@ A couple of days ago, one of my friends mentioned that it would be interesting t
 
 <img src="https://user-images.githubusercontent.com/68678549/99867692-9368cc00-2bf6-11eb-872d-e0e9ff34c7cf.png" alt="how-to-export" style="zoom:50%;" />
 
-The group that we were in is hosted on telegram and the data was easily to pull. As shown, you just had to use Telegram Desktop to export the files. You have the option of either exporting as a .html or .json but I would 100% recommend .json just because its easier for python to read. 
+The group that we were in is hosted on telegram and the data was easy to pull. As shown, you just had to use Telegram Desktop to export the files. You have the option of either exporting as a .html or .json but I would 100% recommend .json just because its easier for python to read. 
 
 ## 2. Cleaning and Preparing Data
 
@@ -49,7 +49,7 @@ pdread.loc[:, pdread.columns != 'name'] #show all columns except group name
 
 As you can see, the actual messages are stored in the parent node "messages" and hence we unpackaged it by `norm_msg = json_normalize(d['messages'])` and pointed it to the parent node "messages".
 
-Once that was done, I needed to extract the important columns. I took only the messages types that were labelled "message" because the output had also recorded random things like starting a poll, sending a location, sending a sticker etc. and these did not contain actual text. I then also filtered it to only give me the important components of date, text, and who the text was from. I then relabelled it to make it easier to understand.  
+Once that was done, I needed to extract the important columns. I took only the messages types that were labelled "message" because the output had also recorded random things like starting a poll, sending a location, sending a sticker etc. and these did not contain actual text. I then also filtered it to only give me the important components of date, text, and who the text was from. I then relabeled it to make it easier to understand.  
 
 
 ```python
@@ -74,7 +74,7 @@ temp = temp.dropna() #remove the na
 
 ### Most common word used
 
-Finally, we were done and ready to get on with the fun stuff! In order to count the number of words, I first joined together all the words from the text column together before changing them all to lower caps and splitting them up. I then used `value_counts` and pulled the top 100 words used in the chat
+Finally, we were done and ready to get on with the fun stuff! In order to count the number of words, I first joined all the words from the text column together before changing them all to lower caps and splitting them up. I then used `value_counts` and pulled the top 100 words used in the chat
 
 
 ```python
