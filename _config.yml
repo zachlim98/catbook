@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl"
   This site is a personal site, blogging about my adventures in learning to code, manipulate data, and trade (not always in that order).
 
 baseurl: # the subpath of the site
-url: http://zachlim98.github.io/me # the base hostname & protocol for your site
+url: http://zachlim98.github.io # the base hostname & protocol for your site
 
 permalink: /:year-:month/:title
 timezone:
