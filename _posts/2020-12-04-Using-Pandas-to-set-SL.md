@@ -15,7 +15,7 @@ Backtesting is an important part of any strategy. An essential part of most stra
 
 ## 1. Overview of bt 
 
-bt is a "flexible bactesting" framework for Python that is modular. What this means is that bt has a number of algorithms that are pre-built that one can literally "plug-and-play" with to get different backtesting outcomes. One of the core algo modules in bt is the `weighTarget` algo. This algo essentially rebalances a portfolio again and again in order to match the weight given to a particular stock position. For instance, this is a table of weights below. When the target weight (TW) is 0.33, the algo will invest 0.33 of available cash into the position, -0.33 will make it go short, and 0 will cause it to exit the position.
+bt is a "flexible backtesting" framework for Python that is modular. What this means is that bt has a number of algorithms that are pre-built that one can literally "plug-and-play" with to get different backtesting outcomes. One of the core algo modules in bt is the `weighTarget` algo. This algo essentially rebalances a portfolio again and again in order to match the weight given to a particular stock position. For instance, this is a table of weights below. When the target weight (TW) is 0.33, the algo will invest 0.33 of available cash into the position, -0.33 will make it go short, and 0 will cause it to exit the position.
 
 <table border="1" class="dataframe">
   <thead>
@@ -201,7 +201,7 @@ Of course, if there is no signal, we leave position as 0 (for no position)
 
 The next block is important because it sets the logic that allows the SL and TP to be used. It checks if the position is a long or short position and then sets the current SL and TP to the preceeding one. This allows the SL and TP to be **persistent**. After setting the SL and TP for the current line, we check if the price of the ticker is below or above the SL and TP (respectively, for long positions and vice versa for short positions). 
 
-If the price has crossed the SL or TP, we set our positions to 0 (i.e.) exit our positions and then set the sell_signal to 1 (indicating a sell)
+If the price has crossed the SL or TP, we set our positions to 0 (i.e. exit our positions) and then set the sell_signal to 1 (indicating a sell)
 
 
 ```python
