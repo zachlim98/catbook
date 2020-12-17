@@ -1,5 +1,5 @@
 ---
-title: Using The Right Tools for the Job: A backtesting tale
+title: Using the Right Tools for the job
 categories: [trading]
 ---
 
