@@ -1,6 +1,6 @@
 ---
 title: Using the Right Tools for the job
-categories: [trading]
+categories: [trading, coding]
 ---
 
 # Introduction
