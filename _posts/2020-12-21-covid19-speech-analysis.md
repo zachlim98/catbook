@@ -5,7 +5,7 @@ categories: [data]
 
 # Introduction
 
-I learnt about [tidytext](www.tidytextmining.com/) awhile ago and thought it was such a neat framework. The essential idea behind it was that you could perform text mining/sentiment analysis using `dplyr` and "tidy" dataframes. So, I just **had** to try out! I looked around for awhile to find things to perform this exploration and finally settled on Singapore Prime Minister Lee's Covid-19 related speeches - thought it might be fun to see how that changed over time. As always, a tl;dr to get things going. 
+I learnt about [tidytext](www.tidytextmining.com/) awhile ago and thought it was such a neat framework. The essential idea behind it was that you could perform text mining/sentiment analysis using `dplyr` and "tidy" dataframes. So, I just **had** to try it out! I looked around for awhile to find things to perform this exploration on and finally settled on Singapore Prime Minister Lee's Covid-19 related speeches - thought it might be fun to see how that changed over time. As always, a tl;dr to get things going. 
 
 (*a side note here: this was a rather basic and easy introduction to tidytext but it really is a much more powerful package and a lot more (which I plan to write on when I have more time) can be done with it*)
 
