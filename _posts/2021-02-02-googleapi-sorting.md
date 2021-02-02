@@ -1,5 +1,5 @@
 ---
-title: Using Google Maps' Direction API for Group Sorting Problems
+title: How to decide on dinner grouping using Google Map's API
 categories: [coding, data]
 ---
 
