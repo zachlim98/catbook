@@ -1,6 +1,6 @@
 ---
 title: Deep In-The-Money LEAPs as a 'safe' form of leverage: A Simulation
-categories: [trading]
+categories: [data, trading]
 ---
 
 # Introduction
