@@ -1,5 +1,5 @@
 ---
-title: "Deep In-The-Money LEAPs as a safe form of leverage: A Simulation"
+title: "Deep ITM LEAPs as a safe form of leverage - A Simulation"
 categories: [data, trading]
 ---
 
